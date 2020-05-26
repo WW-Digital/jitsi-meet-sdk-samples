@@ -1,6 +1,6 @@
 platform :ios, '11.0'
 
-target 'example-pip-app' do
+target 'App' do
     pod 'JitsiMeetSDK', '~> 2.8.1'
 
     post_install do |installer|
